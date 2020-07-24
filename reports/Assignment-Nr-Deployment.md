@@ -1,5 +1,3 @@
-# This your assignment deployment report
+# This is a deployment/installation guide
 
-it is a free form. you can add:
-
-* how to deploy your system 
+It is a free form. you can use it to explain how to deploy/install and run  your code. 
