@@ -1,7 +1,7 @@
 # Assignment guidelines
 
-Last modified: 08.09.2019
->Note: this guideline can be stayed in your submission.
+Last modified: 12.12.2020
+>Note: this guideline can be stayed in your submission. This guideline should be modified by you.
 
 The assignment delivery will be everything within the top directory **assignment_nr_studentid**. You **MUST use git** to work on your assignment delivery by cloning this assignment delivery template (it is up to you to decide which git systems you want to use).
 
@@ -11,6 +11,7 @@ The assignment delivery will be everything within the top directory **assignment
 * The assignment id and your student id should be in the name of the top directory of the assignment delivery
 * Self-evaluation: do the self-evaluation of your assignment and put the points of your self-evaluation into **selfgrading.csv**
 * **assignment-git.log**: the content of this file is the log extracted from your own git project for the assignment. You can use "git log" command to extract the git log
+
 ## Directory structure
 
 * You must make sure that the top directory is named as "assignment_nr_studentid" by replacing "nr" with the assignment number and "studentid" with your student id.
@@ -26,11 +27,11 @@ The assignment delivery will be everything within the top directory **assignment
 * You must guarantee the data regulation w.r.t. all contents in the assignment delivery
 * Only your student id should be stored in the delivery: the **submitter.csv** should have only a single line which is your student id.
 * Reports have to be written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* No **BINARY format** for any content (code, data, logs, reports), except *figures of your design or performance charts*. It means, for example, external libraries for your programs should be automatically downloaded when we compile the code (following your README guide), no report is written in Microsoft/open office or PDF.
+* No **BINARY format** for any content (code, data, logs, reports), except *figures of your design or performance charts*. It means, for example, external libraries for your programs should be automatically downloaded when we compile the code (following your README guide), no report is written in Microsoft/Open office or PDF.
 * If you make a video demonstrating how your systems/tests work, you can put the video into any accessible link (e.g., private Youtube) and put the link into *demolink.txt*
 
 ## Programming Languages
-You must use only **Java, Scala, JavaScript/NodeJS, Python or shell scripts**
+You must use only **Java, Scala, JavaScript/NodeJS, Python, GoLang or shell scripts**
 
 ## Assignment submission
 
