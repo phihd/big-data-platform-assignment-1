@@ -1,9 +1,10 @@
 # Assignment guidelines
 
 Last modified: 12.12.2020
->Note: this guideline can be stayed in your submission. This guideline should be modified by you.
+>Note: this guideline can be stayed in your submission. This guideline should not be modified by you.
 
 The assignment delivery will be everything within the top directory **assignment_nr_studentid**. You **MUST use git** to work on your assignment delivery by cloning this assignment delivery template (it is up to you to decide which git systems you want to use).
+* if you are not familar with GIT: try to read [GIT cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) and use common services like [Aalto GIT](https://version.aalto.fi), [GitHub](https://github.com), [GitLab](https://gitlab.com), and [Bitbucket](https://bitbucket.org/)
 
 ## Important files
 
