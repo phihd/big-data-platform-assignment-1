@@ -32,7 +32,8 @@ The assignment delivery will be everything within the top directory **assignment
 * If you make a video demonstrating how your systems/tests work, you can put the video into any accessible link (e.g., private Youtube) and put the link into *demolink.txt*
 
 ## Programming Languages
-You must use only **Java, Scala, JavaScript/NodeJS, Python, GoLang or shell scripts**
+You must use only **Java, JavaScript/TypeScript, Python, or shell scripts**
+>If you want to use other programming languages you can discuss with the responsible teacher
 
 ## Recommendations:
 To increase the clarity of the source code, the platform needs to be well structured. The components should be organized into separate folders providing a manuscript to run.
