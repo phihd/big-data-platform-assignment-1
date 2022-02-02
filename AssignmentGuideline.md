@@ -34,6 +34,9 @@ The assignment delivery will be everything within the top directory **assignment
 ## Programming Languages
 You must use only **Java, Scala, JavaScript/NodeJS, Python, GoLang or shell scripts**
 
+## Recommendations:
+To increase the clarity of the source code, the platform needs to be well structured. The components should be organized into separate folders providing a manuscript to run.
+
 ## Assignment submission
 
 * Make sure your clean your directory before creating a zip file for submission.
