@@ -32,9 +32,9 @@ class IngestWorker(Thread):
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--n_concurrence', type=int, default=1)
-    parser.add_argument('--record', type=bool, default=False)
-    parser.add_argument('--n_shards', type=int, default=3)
+    parser.add_argument('--n_concurrence', type=int, default=1, help='number of concurrent ingestion')
+    parser.add_argument('--record', type=bool, default=False, help='set True to record request time')
+    parser.add_argument('--n_shards', type=int, default=3, help='number of shards')
     return parser.parse_args()
 
 

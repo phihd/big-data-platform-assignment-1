@@ -9,8 +9,8 @@ data = data.replace(np.nan, 'NaN')
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--server_address', type=str, default='http://127.0.0.1:5000/')
-    parser.add_argument('--method', type=str, default='ingest')
+    parser.add_argument('--server_address', type=str, default='http://127.0.0.1:5000/', help='The IP address that hosts the API')
+    parser.add_argument('--method', type=str, default='ingest', help='ingest/clear')
     return parser.parse_args()
 
 if __name__ == "__main__":
