@@ -20,9 +20,11 @@ To find a certain record:
 
 # Ingest data with the API
 Run the example following code:  
+
 	python code/from_comsumer-producer_to_daas.py --server_address=http://127.0.0.1:5000/
 
  
 # Ingest data directly to the database
 Run the example following code:  
+
 	python code/from_comsumer-producer_to_daas.py --n_concurrence=5 --record=True --n_shards=3	
