@@ -1,0 +1,7 @@
+1 concurrent ingestions take 5.911033630371094 seconds.
+2 concurrent ingestions take 8.807973384857178 seconds.
+3 concurrent ingestions take 12.99875521659851 seconds.
+4 concurrent ingestions take 15.4683997631073 seconds.
+5 concurrent ingestions take 12.65128779411316 seconds.
+10 concurrent ingestions take 32.47868466377258 seconds.
+15 concurrent ingestions take 50.75347590446472 seconds.
