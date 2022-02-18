@@ -24,7 +24,19 @@ complex structured or unstructured data. Finally, it is easy to deploy with grea
 ### 2. Design and explain interactions between main components in the architecture of **mysimbdp**.
 
 <p align="center">
-<img src="Figures/architecture.png">
+<img src="figures/design_diagram.png">
 <p>
 
-The diagram above illustrates the architecture of **mysimbdp**.
+The diagram above illustrates the architecture of **mysimbdp**. Components will be described as follows:
+- *Consumer/Producer*: This component represents (one or many) producers/consumers run by tenants that interact with the **mysimbdp** to
+work with the database. Both store and read processes will go through the API as long as the database is available.
+- *mysimbdp-coredms*: A MongoDB Atlas instance that stores and manages data.
+- *mysimbdp-daas*: A REST API built with Flask on Python defines a set of protocols that enable interactions with consumers/producers.
+The API receives requests and connect to *mysimbdp-coredms* with *pymongo* library.
+- *mysimbdp-dataingest*: This component read data from data sources (files/external databases/messaging systems) and then store the data
+to *mysimbdp-coredms* with *pymongo* library.
+
+Let us dive deeper into interactions between main components in the architecture:
+- From *Consumer/Producer* to *mysimbdp-daas*: The interaction is demonstrated in the python script *code/from_consumer-producer_to_daas.py*.
+Consumer/Producer can store data to the database, clear the database, or find records with a specific date or country.
+- From *mysimbdp-daas* to *mysimbdp-coredms*:
