@@ -1,1 +1,1 @@
-!(reports/figures/design_diagram.png)
+![](reports/figures/design_diagram.png)
