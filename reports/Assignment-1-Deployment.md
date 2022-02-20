@@ -27,4 +27,4 @@ Run the example following code:
 # Ingest data directly to the database
 Run the example following code:  
 
-	python code/from_comsumer-producer_to_daas.py --n_concurrence=5 --record=True --n_shards=3	
+	python code/mysimbdp-dataingest.py --n_concurrence=5 --record=True --n_shards=3	
